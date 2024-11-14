@@ -1,0 +1,639 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f8;
+}
+
+/* Header */
+.header {
+    background-image: linear-gradient(to right,#CB1C22, #DF4F11, #F19A0D);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+.search-container {
+    position: relative;
+    width: 40%;
+}
+
+.search-bars {
+    width: 100%;
+    padding: 8px 40px 8px 15px;
+    border-radius: 20px;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 1.2em;
+}
+.header-iconCart {
+    color: white;
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.header-userIcon  {
+    color: white;
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.header-notionIcon  {
+    color: white;
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.header-iconBar {
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 1.3em;
+    margin-left: 35px;
+  
+}
+.header-bar{
+    display: none;
+}
+.user-text {
+    color: white;
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+
+.search-bar {
+    flex: 1;
+    margin: 0 15px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.user-options {
+    display: flex;
+    align-items: center;
+}
+/* Banner */
+.container {
+    display: flex;
+    /* max-width: 972px; */
+    width: 100%;
+    /* margin: 0 auto; */
+    
+}
+.side-bar {
+    width: 8vw;  
+    margin-right: 1px;
+    background-color: #E9EAFA;
+}
+.side-bar-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.see-more {
+    display: none;
+}
+.side-bar-icon {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+    font-size: 1.54vw;
+}
+.bag-total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.total-bag {
+    width: 7vw;
+    height: 5vw;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 11px;
+}
+.banner1 {
+    width: 92vw;
+    height: 100%;
+    background-color: #E9EAFA;
+}
+.banner {
+    background-color: #6a0dad;
+    color: white;
+    border-radius: 10px;
+}
+
+.banner-content {
+   width: 90%;
+   
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vw;
+    position: relative;
+    font-size: 0.94vw;
+    font-weight: 600;
+}
+.banner {
+    width: 90%;
+    height: 11vw;
+    background-color: #8B00FF;
+    border-radius: 20px;
+    margin: 16px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.img-sales {
+    width: 35vw;
+    height: 11vw;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.text1 {
+    font-size: 1.14vw;
+    color: white;
+    font-weight: 500;
+    margin-top: 2vw;
+}
+.text2 {
+    margin-top: 0.90vw;
+    font-size: 0.85vw;
+    color: white;
+}
+.btn-couse {
+    width: 10vw;
+    margin-top: 2vw;
+}
+.total3 {
+    margin-left: 2vw;
+}
+.btn {
+    padding: 6%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    background-color: #8B00FF;
+    border: 1px solid white;
+    font-size: 0.84vw;
+    cursor: pointer;
+}
+.btn:hover {
+    border: none;
+    color: #8B00FF;
+    background-color: white;
+}
+
+
+
+.btn-pro {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+/* User Info */
+.dashpoad {
+    width: 90%;
+    background-color: #1E2A55;
+    height: 17vw;
+    margin:0 auto;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.title-text {
+    padding:1vw 0 1vw 2vw ;
+    color: white;
+    font-size: 1.50vw;
+ }
+ .dashpoad-total {
+     width: 20vw;
+     height: 9vw;
+     background-color: #35416E;
+     border-radius: 10px;
+     margin: 0 22px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .img-user {
+    height: 5.14vw;
+    margin-right: 1vw;
+}
+
+.name-text {
+    color: white;
+    font-size: 1.14vw;
+}
+.dashpoad-item {
+    display: flex;
+}
+.course {
+    width: 27vw;
+}
+.course-name {
+    margin-bottom: 10px;
+}
+.course-total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.course-text {
+    color: white;
+    font-size: 0.94vw;
+    font-weight: 600;
+}
+.number {
+    color: #F6FF00;
+    font-weight: 600;
+    font-size: 1.14vw;
+}
+.certification-text {
+    color: white;
+    font-size: 0.84vw;
+}
+.progress-bar {
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+.green {
+    width: 50%;
+    height: 5px;
+    background-color: green;
+    border-radius: 10px;  
+}
+.course2 {
+    width: 27vw;
+    margin-left: 20px; 
+}
+.total-course{
+    display: flex;
+}
+.bag {
+    width: 70%;
+}
+.course3 {
+    margin-top: 6px;
+}
+.img-1 {
+    width: 2.70vw;
+    margin-right: 5px;
+}
+.title-course {
+    margin-bottom: 20px;
+}
+.title-courses {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.user-details {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+/* Courses */
+.courses {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.course-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.course-mobile {
+   display: none;
+    
+}
+
+.course-item {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+.img-item{
+    width: 100%;
+}
+.course-title {
+    font-weight: 600;
+    font-size: 1.14vw;
+    margin: 1vw 1vw;
+}
+.course-author {
+    font-weight: 600;
+    color: gray;
+    font-size: 0.90vw;
+    margin: 1vw 1vw;
+}
+.course-star {
+    margin: 1vw 1vw;
+}
+.course-prices {
+    font-size: 1.14vw;
+    margin: 1vw 1vw;
+}
+.number-star {
+    font-size: 1.14vw;
+    margin-left: 0.60vw;
+    text-align: center;
+}
+.course-star-icon {
+    color: #F9BF0A;
+    font-size: 1vw;
+}
+.course-price {
+    color: gray;
+    font-size: 0.90vw;
+    margin: 1vw 1vw;
+}
+.progress {
+    width: 100%;
+    height: 0.7vw;
+    background-color: white;
+    border-radius: 10px;
+}
+.progress-course {
+    width: 100%;
+    height: 1vw;
+    background-color: green;
+}
+
+/* Skills */
+.skills {
+    width: 50%;
+    margin-right: 15px;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 15px;
+}
+.skill-total {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.skill-text {
+    margin-top: 5px;
+    margin-left: 35px;
+    font-size: 1.14vw;
+}
+.img-couser {
+    width: 4vw;
+}
+
+.skill-item {
+    background-color: #333;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.skill-js {
+    display: flex;
+    align-items: center;
+}
+.wrap {
+    display: flex;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.header-mobile {
+    display: none;
+}
+
+
+/* Activities */
+.calendar {
+    width: 50%;
+}
+.calendar-container {
+    padding: 30px;
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .calendar-header {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #666;
+    margin-top: 1em;
+    font-size: 1.24vw;
+}
+  .calendar-body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-top: 3em;
+  }
+  .day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .date {
+    width: 3vw;
+    height: 2vw;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    color: #555;
+    font-size: 0.84vw;
+    background-color: #E9EAFA;
+}
+  .low { background-color: #e0e7ff; }
+  .medium { background-color: #c7d2fe; }
+  .high { background-color: #a5b4fc; }
+  .legend {
+    display: flex;
+    align-items: center;
+    margin-top: 3vw;
+    margin-left: 1vw;
+  }
+  .text-hd {
+    margin-right: 10px;
+    font-size: 1.14vw;
+}
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .legend-color {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+
+/* Footer */
+.footer {
+    background-color:white;
+    width: 100%;
+    /* max-width: 972px;
+   margin: 0 auto; */
+    
+}
+.total-footer {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.total-care {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.care {
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-size: 1.15vw;
+}
+.logo-fpt {
+    width: 6vw;
+    margin-bottom: 15px;
+}
+.cares {
+    padding-top: 26px;
+}
+.describe {
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 17px;
+    line-height: 20px;
+}
+.describe {
+    color: #000;
+    font-size: 1vw;
+}
+.instruct {
+    margin-bottom: 15px;
+}
+
+.contact-fb {
+    color: #0000FF;
+    margin-right: 10px;
+    font-size: 2.14vw;
+}
+.contact-tw{
+    color: #4949CF;
+    margin-right: 15px;
+    font-size: 2.14vw;
+}
+.contact-gh{
+    color: #000;
+    margin-right: 15px;
+    font-size: 2.14vw;
+}
+.contact-yt{
+    color: #FF0000;
+    margin-right: 15px;
+    font-size: 2.14vw;
+}
+.instruct {
+    font-size: 1vw;
+}
+.cares1{
+    margin-right: 6vw;
+    padding-top: 26px
+}
+@media (max-width: 972px) {
+    .cares1 {
+        margin-right: 6vw;
+        padding-top: 26px
+    }
+    .course-name {
+        margin-bottom: 0px;
+    }
+    .course3 {
+        margin-top: 0px;
+    }
+    .course-total {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+    .course-total {
+        margin-bottom: 5px;
+    }
+    .total-bag {
+        margin-top: 1.56vw;
+    }
+    .banner {
+        border-radius: 10px;
+    }
+    .dashpoad {
+        border-radius: 10px;
+    }
+    .total-bag {
+        border-radius: 7px;
+    }
+    .date {
+        font-size: 1vw;
+    }
+    .legend {
+        margin-top: 4vw;
+    }
+    .calendar-container {
+        height: auto;
+    }
+    .progress {
+        width: 100%;
+        height: 1vw;
+        background-color: white;
+        border-radius: 10px;
+    }
+}

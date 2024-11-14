@@ -1,0 +1,189 @@
+@media (max-width: 768px) {
+    /* Tablet Styles */ 
+    .cares {
+        margin: 0;
+    }
+    .instruct {
+        font-size: 1.50vw;
+    }
+    .care {
+        font-size: 1.90vw;
+    }
+    .contact-fb {
+        font-size: 3.14vw;
+    }
+    .contact-tw {
+        font-size: 3.14vw;
+    }
+    .contact-yt {
+        font-size: 3.14vw;
+    }
+    .contact-gh {
+        font-size: 3.14vw;
+    }
+    .describe {
+        font-size: 1.50vw;
+    }
+    .logo-fpt {
+        width: 11vw;
+    }
+    .total-care {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .text-hd {
+        font-size: 2.14vw;
+    }
+    .legend-color {
+        width: 3vw;
+        height: 3vw;
+
+    }
+    .calendar-header {
+        font-size: 2vw;
+    }
+    
+    .date {
+        width: 6vw;
+        height: 3.5vw;
+        border-radius: 5px;
+        font-size: 1.70vw;
+    }
+    .skill-list {
+        /* width: 50%; */
+    }
+    .skill-text {
+        font-size: 1.80vw;
+    }
+.course-price {
+    font-size: 1.14vw;
+    margin: 2vw 2vw;
+}
+    .course-star-icon {
+        font-size: 1.34vw;
+    }
+    .course-author {
+        font-size: 1.10vw;
+        margin: 1vw 2vw;
+    }
+    .course-star {
+        margin: 1vw 2vw;
+    }
+    .course-title {
+        font-size: 1.54vw;
+        margin: 1vw 2vw;
+    }
+    .name-text {
+        font-size: 2.14vw;
+    }
+    .img-user {
+        height: 6.14vw;
+    }
+    .title-text {
+        padding: 1vw 0 2vw 2vw;
+    }
+    .img-1 {
+        width: 3.7vw;
+    }
+    .number {
+        font-size: 1.74vw;
+    }
+    .course-text {
+        font-size: 1.44vw;
+    }
+    .dashpoad-total {
+        width: 43vw;
+    }
+    .course2 {
+        width: 20vw;
+    }
+    .course {
+        width: 20vw;
+    }
+    .dashpoad-total {
+        height: 15vw;
+    }
+    .dashpoad {
+        border-radius: 10px;
+        height: 25vw;
+    }
+    .text {
+        font-size: 1.24vw;
+        margin-bottom: 0;
+    }
+    .banner {
+        border-radius: 10px;
+    }
+    .text1 {
+        font-size: 1.44vw;
+        margin-top: 3vw;
+    }
+    .text2 {
+        font-size: 1.15vw;
+    }
+    .btn-couse {
+        width: 100%;
+        margin-top: 8px;
+    }
+    .banner {
+        height: 15vw;
+    }
+    .btn {
+        padding: 5%;
+    }
+    .wrap {
+        display: block;
+    }
+    .calendar {
+        width: 100%;
+    }
+    .title-course {
+        margin-top: 30px;
+    }
+    .skills {
+        width: 100%;
+    }
+    .course-name {
+        margin-bottom: 0.7vw;
+        margin-top: 0.7vw;
+    }
+    .course-total {
+        margin-bottom: 0;
+    }
+    .progress-bar {
+        display: none;
+    }
+    .certification-text {
+        display: none;
+    }
+    .user-text {
+        display: none;
+    }
+    .course-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .course-prices {
+        font-size: 1.4vw;
+        margin: 2vw 2vw;
+    }
+    .number-star {
+        font-size: 1.54vw;
+    }
+    .img-sales {
+        height: 15vw;
+    } 
+    .header-mobile {
+        display: none;
+    }
+    .see-more {
+        display: none;
+    }
+    .skill-star {
+        margin-left: 11vw;
+    }
+    .skill-list {
+        justify-content: flex-start;
+    }
+    .skill-js {
+        width: 90px;
+    }
+}

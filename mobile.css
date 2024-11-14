@@ -1,0 +1,237 @@
+@media (max-width: 385px) {
+    .header-mobile {
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .total-bag {
+        width: 16vw;
+        height: 10vw;
+        background-color: #ceced8;
+        margin-top: 0px;
+        
+    }
+    .title-course {
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    .title-courses {
+        font-size: 15px;
+    }
+    .text-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .see-more {
+        margin-bottom: 20px;
+        font-size: 10px;
+        color: #1A58B4;
+        display: block;
+    }
+    .side-bar-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.6vw;
+        padding-top: 4px;
+    }
+    .text {
+        font-size: 3vw;
+        margin-bottom: 0;
+    }
+    .course-item{
+        border-radius: 5px;
+    }
+    .instruct {
+        font-size: 3vw;
+    }
+    .care {
+        font-size: 3.9vw;
+    }
+    .logo-fpt {
+        width: 18vw;
+    }
+    .contact-fb {
+        font-size: 5.14vw;
+    }
+    .contact-tw {
+        font-size: 5.14vw;
+    }
+    .contact-yt {
+        font-size: 5.14vw;
+    }
+    .contact-gh {
+        font-size: 5.14vw;
+    }
+    .describe {
+        font-size: 3.5vw;
+        line-height: 18px;
+    }
+    .total-care {
+        margin-left: 20px;
+    }
+    .total-footer{
+        display: block;
+    }
+    .total-care {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .legend-color {
+        width: 4vw;
+        height: 4vw;
+    }
+    .date {
+        width: 7vw;
+        height: 5vw;
+        border-radius: 3px;
+        font-size: 2.44vw;
+    }
+    .calendar-header {
+        font-size: 3.5vw;
+    }
+    .text-hd {
+        font-size: 3.14vw;
+    }
+    .skill-text {
+        font-size: 2.8vw;
+    }
+    .img-couser {
+        width: 7vw;
+    }
+    .search-container-icon {
+        font-size: 1.14vw;
+    }
+    .search-bars {
+        font-size: 7px;
+    }
+    .logo {
+        margin-left: 20px;
+    }
+    .course-star-icon {
+        font-size: 2.14vw;
+    }
+    .course-price {
+        font-size: 1.9vw;
+        margin: 2vw 2vw;
+    }
+    .course-author {
+        font-size: 2.1vw;
+        margin: 2vw 2vw;
+    }
+    .course-title {
+        font-size: 2.84vw;
+        margin: 1vw 2vw;
+    }
+    .course-star {
+        margin: 1vw 2vw;
+    }
+    .img-1{
+        width: 3.7vw;
+    }
+    .number{
+        font-size: 2.14vw;
+    }
+    .number-star {
+        font-size: 2.54vw;
+    }
+    .course-text {
+        font-size: 1.94vw;
+    }
+    .img-user{
+        margin-top: 9px;
+    }
+    .name-text{
+        font-size: 2vw;
+    }
+    .course {
+        width: 20vw;
+    }
+    .dashpoad-total {
+        width: 28vw;
+        height: 19vw; 
+    }
+    .title-text{
+        font-size: 2.5vw;
+        padding: 2vw 0 4vw 2vw;
+    }
+    .dashpoad {
+        height: 35vw;
+        border-radius: 10px;
+    }
+    .btn-couse {
+        width: 100%;
+    }
+    .btn {
+        font-size: 1.54vw;
+        padding: 4%;
+    }
+    .banner {
+        border-radius: 10px;
+    }
+    .text2 {
+        font-size: 1.85vw;
+    }
+    .text1 {
+        font-size: 2.5vw;
+        margin-top: 2.5vw;
+    }
+    .banner {
+        height: 20vw;
+    }
+    .img-sales {
+        height: 20vw;
+    }
+    .banner1 {
+        width: 100%;
+    }
+    .side-bar {
+        display: none;
+    }
+    .course-list {
+       display: none;
+    }
+    .course-mobile {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        
+    }
+    .search-bar {
+        font-size: 0.9em; 
+    }
+    .search-icon {
+        font-size: 1em; 
+    }
+    .header-bar{
+        display: block;
+    }
+    .header-notion {
+        display: none;
+    }
+    .header-cart {
+        display: none;
+    }
+    .header-user {
+        display: none;
+    }
+    .course-prices {
+        font-size: 2vw;
+        margin: 2vw 2vw;
+    }
+    .course-name {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .skill-list {
+        justify-content: space-between;
+    }
+    .skill-star {
+        margin-left: 0;
+    }
+}

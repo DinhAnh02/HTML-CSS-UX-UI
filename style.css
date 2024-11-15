@@ -23,8 +23,8 @@ body {
     font-size: 1.5em;
     font-weight: bold;
     color: white;
-    margin-left: 1.3em;
-    margin-right: 1.5em;
+    margin-left: 16px;
+    margin-right: 14px;
 }
 .search-container {
     position: relative;
@@ -39,6 +39,7 @@ body {
     box-sizing: border-box;
     outline: none;
     height: 33.3px;
+    font-size: 10px;
 }
 
 .search-icon {
@@ -53,19 +54,20 @@ body {
     color: white;
     margin-right: 40px;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 15px;
 }
 .header-userIcon  {
     color: white;
-    margin-right: 40px;
+    margin-right: 16px;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 15px;
 }
 .header-notionIcon  {
     color: white;
     margin-right: 40px;
     cursor: pointer;
     font-size: 1em;
+    font-size: 15px;
 }
 .header-iconBar {
     color: white;
@@ -82,7 +84,8 @@ body {
     color: white;
     margin-right: 40px;
     cursor: pointer;
-    font-size: 1em;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 
@@ -134,13 +137,13 @@ body {
 }
 .total-bag {
     width: 7vw;
-    height: 5vw;
+    height: 5.5vw;
     background-color: white;
     margin-top: 15px;
     border-radius: 11px;
 }
 .banner1 {
-    width: 92vw;
+    width: 91%;
     height: 100%;
     background-color: #E9EAFA;
 }
@@ -173,7 +176,7 @@ body {
     justify-content: space-between;
 }
 .img-sales {
-    width: 35vw;
+    width: 27.3vw;
     height: 11vw;
     overflow: hidden;
     border-radius: 20px;
@@ -275,7 +278,7 @@ body {
 }
 .course-text {
     color: white;
-    font-size: 0.94vw;
+    font-size: 0.97vw;
     font-weight: 600;
 }
 .number {
@@ -317,11 +320,12 @@ body {
     margin-right: 5px;
 }
 .title-course {
+    font-size: 15px;
     margin-bottom: 18px;
 }
 .title-courses {
-    margin-bottom: 18px;
-    margin-top: 36px;
+    margin-bottom: 20px;
+    margin-top: 25px;
 }
 
 .user-details {
@@ -469,7 +473,6 @@ body {
     text-align: center;
     font-weight: bold;
     color: #666;
-    margin-top: 1em;
     font-size: 1.24vw;
 }
   .calendar-body {
@@ -554,7 +557,7 @@ body {
     margin-bottom: 17px;
 }
 .cares {
-    padding-top: 26px;
+    padding-top: 15px;
 }
 .describe {
     font-weight: 400;
@@ -595,9 +598,79 @@ body {
 }
 .cares1{
     margin-right: 6vw;
-    padding-top: 26px
+    padding-top: 15px
 }
 @media (max-width: 972px) {
+    .skill-text {
+        font-size: 14px;
+    }
+    .text {
+        font-size: 1.14vw;
+    }
+    .title-courses {
+        font-size: 15px;
+    }
+    .side-bar {
+        width: 9%;
+    }
+    .calendar-header {
+        margin-top: 0;
+    }
+
+.calendar-body {
+    margin-top: 1em;
+}
+.date {
+    margin-bottom: 7px;
+    width: 3.50;
+}
+    .skill-list {
+        padding: 10px 33px 10px 33px;
+    }
+    .skill-total {
+    }
+    .wrap {
+        width: 86%;
+    }
+    .img-couser {
+        width: 2.58vw;
+    }
+    .courses {
+        width: 86%;
+    }
+    .img-user {
+        height: 4.14vw;
+    }
+    .progress-bar {
+        width: 90%;
+    }
+    .dashpoad {
+        width: 86%;
+    }
+    .banner {
+        width: 86%;
+    }
+    .btn-couse {
+        margin-top: 1.6vw;
+    }
+    .btn {
+        font-size: 1.05vw;
+        font-weight: 600;
+    }
+    .text2 {
+        margin-top: 1.1vw;
+        font-size: 10px;
+        color: white;
+    }
+    .text1 {
+        color: white;
+        font-weight: 500;
+        margin-top: 1.1vw;
+        font-size: 13px;
+    }
+    .number {
+        font-size: 1.34vw;
+    }
     .date {
         border-radius: 3px;
     }
@@ -606,18 +679,16 @@ body {
         width: 31%;
     }
     .cares1 {
-        margin-right: 6vw;
-        padding-top: 26px
+        margin-right: 5vw;
     }
     .course-name {
         margin-bottom: 0px;
     }
     .course3 {
-        margin-top: 0px;
+        margin-top: 2px;
     }
     .course-total {
-        display: flex;
-        justify-content: space-between;
+        width: 89%;
         margin-bottom: 5px;
     }
     .course-total {
@@ -639,7 +710,8 @@ body {
         font-size: 1vw;
     }
     .legend {
-        margin-top: 4vw;
+        margin-top: 8px;
+        margin-left: 0;
     }
     .calendar-container {
         height: auto;

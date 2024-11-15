@@ -108,20 +108,20 @@
     }
     .logo-fb {
         width: 50px;
-        height: 25px;
+        height: 30px;
     }
     .search-container-icon {
         font-size: 1vw;
     }
     .search-container {
         width: 52%;
-    } 
+    }
     .search-bars {
         font-size: 8px;
         height: 22px;
     }
     .logo {
-        margin-left: 10px;
+        margin-left: 15px;
     }
     .logo-ft {
         margin-left: 20px;
@@ -139,13 +139,20 @@
     }
     .course-title {
         font-size: 2.84vw;
-        margin: 1vw 2vw;
+        margin: 1vw 1vw;
     }
     .course-star {
         margin: 1vw 2vw;
     }
+    .course2 {
+        margin: 0;
+    }
+    .course-number {
+        margin-bottom: 10px;
+    }
     .img-1{
-        width: 3.7vw;
+        width: 5.7vw;
+        margin: 6px 0px 0 0;
     }
     .number{
         font-size: 2.14vw;
@@ -154,7 +161,7 @@
         font-size: 2.54vw;
     }
     .course-text {
-        font-size: 1.94vw;
+        font-size: 7px;
     }
     .img-user{
         margin-top: 9px;
@@ -166,8 +173,8 @@
         width: 20vw;
     }
     .dashpoad-total {
-        width: 28vw;
-        height: 19vw; 
+        width: 40vw;
+        height: 18.4vw;
     }
     .title-text{
         font-size: 2.5vw;
@@ -177,27 +184,34 @@
         height: 35vw;
         border-radius: 10px;
         margin-bottom: 21px;
+        width: 86.3vw;
     }
     .btn-couse {
         width: 100%;
     }
     .btn {
-        font-size: 1.54vw;
-        padding: 4%;
+        font-size: 7px;
+        padding: 6%;
     }
     .text2 {
-        font-size: 1.85vw;
+        font-size: 7px;
+        margin-top: 8px;
+    }
+    .total3 {
+        margin-left: 16px;
     }
     .text1 {
-        font-size: 2.5vw;
-        margin-top: 2.5vw;
+        font-size: 10px;
+        margin-top: 12px;
     }
     .banner {
-        height: 20vw;
+        height: 25.3vw;
         border-radius: 10px;
+        width: 86.3%;
     }
     .img-sales {
         height: 100%;
+        width: 46.5vw;
     }
     .banner1 {
         width: 100%;
@@ -213,6 +227,10 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
         
+    }
+    .header-iconBar {
+        margin-right: 15px;
+        margin-left: 20px;
     }
     .search-bar {
         font-size: 0.9em; 
@@ -239,6 +257,7 @@
     .course-name {
         margin-bottom: 0;
         margin-top: 0;
+        font-size: 7px;
     }
     .skill-list {
         justify-content: space-between;

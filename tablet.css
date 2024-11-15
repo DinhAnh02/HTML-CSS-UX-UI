@@ -12,6 +12,10 @@
     .contact-fb {
         font-size: 3.14vw;
     }
+    .search-container {
+        position: relative;
+        width: 40%;
+    }
     .contact-tw {
         font-size: 3.14vw;
     }
@@ -73,7 +77,8 @@
         margin: 1vw 2vw;
     }
     .name-text {
-        font-size: 2.14vw;
+        font-size: 1.70vw;
+        font-weight: 600;
     }
     .img-user {
         height: 6.14vw;
@@ -107,7 +112,7 @@
         height: 25vw;
     }
     .text {
-        font-size: 1.24vw;
+        font-size: 1.14vw;
         margin-bottom: 0;
     }
     .banner {

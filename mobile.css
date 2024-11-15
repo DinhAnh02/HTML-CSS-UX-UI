@@ -1,7 +1,7 @@
 @media (max-width: 385px) {
     .header-mobile {
         width: 100%;
-        height: 60px;
+        height: 50px;
         background-color: white;
         display: flex;
         justify-content: space-around;
@@ -10,16 +10,18 @@
     .total-bag {
         width: 16vw;
         height: 10vw;
-        background-color: #ceced8;
+        background-color: #E9EAFA;
         margin-top: 0px;
         
     }
     .title-course {
         margin-top: 0px;
         font-size: 15px;
+        margin-bottom: 9px;
     }
     .title-courses {
         font-size: 15px;
+        margin-bottom: 9px;
     }
     .text-title {
         display: flex;
@@ -104,13 +106,24 @@
     .img-couser {
         width: 7vw;
     }
-    .search-container-icon {
-        font-size: 1.14vw;
+    .logo-fb {
+        width: 50px;
+        height: 25px;
     }
+    .search-container-icon {
+        font-size: 1vw;
+    }
+    .search-container {
+        width: 52%;
+    } 
     .search-bars {
-        font-size: 7px;
+        font-size: 8px;
+        height: 22px;
     }
     .logo {
+        margin-left: 10px;
+    }
+    .logo-ft {
         margin-left: 20px;
     }
     .course-star-icon {
@@ -163,6 +176,7 @@
     .dashpoad {
         height: 35vw;
         border-radius: 10px;
+        margin-bottom: 21px;
     }
     .btn-couse {
         width: 100%;
@@ -170,9 +184,6 @@
     .btn {
         font-size: 1.54vw;
         padding: 4%;
-    }
-    .banner {
-        border-radius: 10px;
     }
     .text2 {
         font-size: 1.85vw;
@@ -183,9 +194,10 @@
     }
     .banner {
         height: 20vw;
+        border-radius: 10px;
     }
     .img-sales {
-        height: 20vw;
+        height: 100%;
     }
     .banner1 {
         width: 100%;
@@ -206,7 +218,7 @@
         font-size: 0.9em; 
     }
     .search-icon {
-        font-size: 1em; 
+        font-size: 0.8em; 
     }
     .header-bar{
         display: block;

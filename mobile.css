@@ -88,14 +88,17 @@
         width: 4vw;
         height: 4vw;
     }
+    .calendar-container {
+        padding: 15px;
+    }
     .date {
-        width: 7vw;
+        width: 9vw;
         height: 5vw;
         border-radius: 3px;
         font-size: 2.44vw;
     }
     .calendar-header {
-        font-size: 3.5vw;
+        font-size: 10px;
     }
     .text-hd {
         font-size: 3.14vw;
@@ -138,8 +141,8 @@
         margin: 2vw 2vw;
     }
     .course-title {
-        font-size: 2.84vw;
-        margin: 1vw 1vw;
+        font-size: 2.74vw;
+        margin: 1vw 2vw;
     }
     .course-star {
         margin: 1vw 2vw;
@@ -155,7 +158,7 @@
         margin: 6px 0px 0 0;
     }
     .number{
-        font-size: 2.14vw;
+        font-size: 10px;
     }
     .number-star {
         font-size: 2.54vw;

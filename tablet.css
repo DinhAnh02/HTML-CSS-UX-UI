@@ -139,6 +139,7 @@
     .banner {
         border-radius: 10px;
         width: 85.3%;
+        margin: 16px auto;
     }
     .text1 {
         font-size: 13px;

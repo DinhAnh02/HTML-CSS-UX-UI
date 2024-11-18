@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     background-color: #f4f4f8;
 }
 
@@ -385,7 +385,9 @@ body {
 }
 .course-star-icon {
     color: #F9BF0A;
-    font-size: 1vw;
+    width: 12px;
+    height: 12px;
+    margin-left: -4px;
 }
 .course-price {
     color: gray;
@@ -425,7 +427,6 @@ body {
     border-radius: 10px;
 }
 .skill-text {
-    margin-top: 5px;
     margin-left: 35px;
     font-size: 1.14vw;
 }
@@ -520,7 +521,6 @@ body {
   .legend-color {
     width: 2vw;
     height: 2vw;
-    border-radius: 3px;
     margin-right: 5px;
 }
 
@@ -534,7 +534,7 @@ body {
     
 }
 .total-footer {
-    padding: 30px 0;
+    padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     
@@ -576,7 +576,7 @@ body {
 
 .contact-fb {
     color: #0000FF;
-    margin-right: 10px;
+    margin-right: 15px;
     font-size: 2.14vw;
 }
 .contact-tw{

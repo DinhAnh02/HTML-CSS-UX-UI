@@ -56,20 +56,20 @@
     .care {
         font-size: 3.9vw;
     }
-    .logo-fpt {
-        width: 18vw;
-    }
     .contact-fb {
-        font-size: 5.14vw;
+        font-size: 6.14vw;
     }
     .contact-tw {
-        font-size: 5.14vw;
+        font-size: 6.14vw;
     }
     .contact-yt {
-        font-size: 5.14vw;
+        font-size: 6.14vw;
     }
     .contact-gh {
-        font-size: 5.14vw;
+        font-size: 6.14vw;
+    }
+    .contact {
+        margin: 23px 0 25px 0;
     }
     .describe {
         font-size: 3.5vw;
@@ -129,9 +129,9 @@
     .logo-ft {
         margin-left: 20px;
     }
-    .course-star-icon {
+    /* .course-star-icon {
         font-size: 2.14vw;
-    }
+    } */
     .course-price {
         font-size: 1.9vw;
         margin: 2vw 2vw;

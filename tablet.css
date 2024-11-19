@@ -1,5 +1,8 @@
 @media (max-width: 768px) {
     /* Tablet Styles */ 
+    .user-options {
+        max-width: 120px;
+    }
     .cares {
         margin: 0;
     }
@@ -14,7 +17,6 @@
     }
     .search-container {
         position: relative;
-        width: 40%;
     }
     .contact-tw {
         font-size: 4vw;
@@ -26,7 +28,7 @@
         font-size: 4vw;
     }
     .describe {
-        font-size: 1.50vw;
+        font-size: 12px;
     }
     .logo {
         margin-left: 6px;
@@ -63,7 +65,7 @@
         font-size: 1.24vw;
     }
     .calendar-container {
-        padding: 40px;
+        padding: 30px 60px;
     }
     .skill-list {
         /* width: 50%; */
@@ -72,65 +74,65 @@
         font-size: 1.80vw;
     }
 .course-price {
-    font-size: 1.14vw;
-    margin: 2vw 2vw;
+    font-size: 10px;
 }
     /* .course-star-icon {
         font-size: 1.34vw;
     } */
     .course-author {
-        font-size: 1.10vw;
-        margin: 1vw 2vw;
-    }
-    .course-star {
-        margin: 1vw 2vw;
+        font-size: 9px;
     }
     .course-title {
-        font-size: 1.54vw;
-        margin: 1vw 2vw;
+        font-size: 10px;
     }
     .name-text {
-        font-size: 1.70vw;
-        font-weight: 600;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .total3 p:first-child {
+        margin-top: 17px;
+    }
+    .total3 p:nth-child(2) {
+        margin-top: 8px;
     }
     .img-user {
-        height: 6.14vw;
-    }
-    .title-courses {
-        margin-top: 38px;
+        width: 46px;
+        height: 44px;
     }
     .img-couser {
         width: 3.3vw;
     }
-    .title-text {
-        padding: 1vw 0 2vw 2vw;
+    .header_search {
+        max-width: 421px;
     }
     .img-1 {
-        width: 3.7vw;
-        margin-right: 12px;
+        width: 30px;
+        height: 28px;
+        margin-right: 10px;
     }
     .number {
         font-size: 1.74vw;
     }
     .course-text {
-        font-size: 1.44vw;
+        font-size: 10px;
     }
     .dashpoad-total {
         width: 43vw;
     }
     .course2 {
-        width: 20vw;
+        width: 46.26%;
     }
     .course {
-        width: 20vw;
+        width: 46.2%;
     }
     .dashpoad-total {
         height: 15vw;
     }
     .dashpoad {
         border-radius: 10px;
-        height: 25vw;
-        width: 85.3%;
+        max-width: 598px;
+        width: 100%;
+        height: 192px;
     }
     .text {
         font-size: 1.14vw;
@@ -138,8 +140,12 @@
     }
     .banner {
         border-radius: 10px;
-        width: 85.3%;
-        margin: 16px auto;
+        max-width: 598px;
+        width: 100%;
+        height: 112px;
+    }
+    .banner1 {
+        padding: 16px 45px 45px;
     }
     .text1 {
         font-size: 13px;
@@ -155,26 +161,21 @@
         width: 100%;
         margin-top: 8px;
     }
-    .banner {
-        height: 14.6vw;
-    }
     .total-bag {
         margin-top: 2vw;
     }
     .btn {
-        padding: 5%;
-        font-size: 1.14vw;
-        font-weight: 600;
-        margin-top: 8px;
+        font-size: 10px;
+        font-weight: 700;
+        margin-top: 13px;
+        width: 96px;
+        height: 28px;
     }
     .wrap {
         display: block;
     }
     .calendar {
         width: 100%;
-    }
-    .title-course {
-        margin-top: 30px;
     }
     .skills {
         width: 100%;
@@ -189,6 +190,9 @@
     .progress-bar {
         display: none;
     }
+    .progress {
+        padding: 4px 0 0 0;
+    }
     .certification-text {
         display: none;
     }
@@ -196,21 +200,23 @@
         display: none;
     }
     .course-list {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 32.04%);
     }
     .course-prices {
-        font-size: 1.4vw;
-        margin: 2vw 2vw;
+        font-size: 10px;
     }
     .number-star {
-        font-size: 1.54vw;
+        font-size: 12px;
     }
     .img-sales {
-        height: 14.6vw;
-        width: 31.6vw;
+        width: 100%;
+        height: 112px;
     }
     .header-mobile {
         display: none;
+    }
+    .header {
+        padding: 0 14px;
     }
     .see-more {
         display: none;

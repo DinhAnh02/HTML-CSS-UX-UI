@@ -8,6 +8,11 @@ body {
     font-family: "Inter", sans-serif;
     background-color: #f4f4f8;
 }
+.main {
+    max-width: 1496px;
+    margin: 0 auto;
+    width: 100%;
+}
 
 /* Header */
 .header {
@@ -17,6 +22,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 8px;
+}
+.header_search {
+    max-width: 441px;
+    min-width: 380px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .logo {
@@ -28,7 +41,8 @@ body {
 }
 .search-container {
     position: relative;
-    width: 40%;
+    width: 300px;
+    height: 33px;
 }
 
 .search-bars {
@@ -47,7 +61,7 @@ body {
     top: 50%;
     right: 15px;
     transform: translateY(-50%);
-    color: #888;
+    color: #000;
     font-size: 1.2em;
 }
 .header-iconCart {
@@ -82,7 +96,6 @@ body {
 }
 .user-text {
     color: white;
-    margin-right: 40px;
     cursor: pointer;
     font-size: 13px;
     font-weight: 600;
@@ -100,6 +113,9 @@ body {
 .user-options {
     display: flex;
     align-items: center;
+    width: 100%;
+    max-width: 256px;
+    justify-content: space-between;
 }
 /* Banner */
 .container {
@@ -110,9 +126,10 @@ body {
     
 }
 .side-bar {
-    width: 8vw;  
+    min-width: 88px;  
     margin-right: 1px;
     background-color: #E9EAFA;
+    padding-top: 13px;
 }
 .side-bar-home {
     display: flex;
@@ -136,16 +153,29 @@ body {
     align-items: center;
 }
 .total-bag {
-    width: 7vw;
-    height: 5.5vw;
-    background-color: white;
-    margin-top: 15px;
+    width: 71px;
+    height: 50px;
     border-radius: 11px;
+    margin: 0 auto 15px;
+    text-align: center;
+    padding-top: 7px;
+}
+.total-bag p {
+    font-size: 11px;
+    font-weight: 700;
+    margin-top: 3px;
+}
+.total-bag:first-child {
+    background-color: white;
+}
+.total-bag img {
+    width: 19px;
+    height: 16px;
 }
 .banner1 {
-    width: 91%;
-    height: 100%;
+    width: 100%;
     background-color: #E9EAFA;
+    padding: 13px 60px 60px;
 }
 .banner {
     background-color: #6a0dad;
@@ -167,47 +197,43 @@ body {
     font-weight: 600;
 }
 .banner {
-    width: 90%;
-    height: 11vw;
+    width: 100%;
+    height: 105px;
     background-color: #8B00FF;
-    border-radius: 20px;
-    margin: 13px auto;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
 }
+.banner{
+    padding-left: 16px;
+}
 .img-sales {
-    width: 27.3vw;
-    height: 11vw;
-    overflow: hidden;
+    width: 248px;
+    height: 105px;
     border-radius: 20px;
 }
-.text1 {
-    font-size: 1.14vw;
+.total3 p:first-child {
+    font-size: 13px;
     color: white;
     font-weight: 500;
-    margin-top: 2vw;
+    margin-top: 10px;
 }
-.text2 {
-    margin-top: 0.90vw;
-    font-size: 0.85vw;
+.total3 p:nth-child(2) {
+    margin-top: 11px;
+    font-size: 10px;
     color: white;
 }
-.btn-couse {
-    width: 10vw;
-    margin-top: 2vw;
-}
-.total3 {
-    margin-left: 2vw;
-}
 .btn {
-    padding: 6%;
+    width: 96px;
+    height: 24px;
+    margin-top: 13px;
     border-radius: 20px;
     border: none;
     color: white;
     font-weight: 500;
     background-color: #8B00FF;
     border: 1px solid white;
-    font-size: 0.84vw;
+    font-size: 10px;
     cursor: pointer;
 }
 .btn:hover {
@@ -230,72 +256,76 @@ body {
 
 /* User Info */
 .dashpoad {
-    width: 90%;
+    width: 100%;
     background-color: #1E2A55;
-    height: 17vw;
-    margin:0 auto;
-    border-radius: 20px;
-    margin-bottom: 43px;
+    height: 175px;
+    margin-top: 13px;
+    border-radius: 10px;
+    padding: 11px 18px 0 ;
 }
 .title-text {
-    padding:1vw 0 1vw 2vw ;
     color: white;
-    font-size: 1.50vw;
+    font-size: 14px;
+    font-weight: 700;
  }
  .dashpoad-total {
-     width: 20vw;
-     height: 9vw;
+     min-width: 217px;
+     height: 93px;
      background-color: #35416E;
      border-radius: 10px;
-     margin: 0 22px;
      display: flex;
      justify-content: center;
      align-items: center;
+     margin-right: 18px;
  }
  .img-user {
-    height: 5.14vw;
-    margin-right: 1vw;
+    width: 43px;
+    height: 43px;
 }
 
 .name-text {
     color: white;
-    font-size: 1.3vw;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 10px;
 }
 .dashpoad-item {
+    margin-top: 13px;
     display: flex;
+    width: 100%;
 }
 .course {
-    width: 27vw;
-}
-.course-name {
-    margin-bottom: 10px;
+    width: 46.26%;
 }
 .course-total {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-top: 7px;
 }
 .course-text {
     color: white;
-    font-size: 0.97vw;
-    font-weight: 600;
+    font-size: 10px;
+    font-weight: 700;
 }
 .number {
     color: #F6FF00;
-    font-weight: 600;
-    font-size: 1.14vw;
+    font-weight: 700;
+    font-size: 12px;
 }
 .certification-text {
     color: white;
     font-size: 10px;
-    font-weight: 600;
+    font-weight: 700;
+}
+.total-img {
+    margin-top: 6px;
 }
 .progress-bar {
     width: 100%;
     height: 5px;
     background-color: white;
     border-radius: 10px;
+    margin-top: 6px;
 }
 .green {
     width: 50%;
@@ -304,29 +334,30 @@ body {
     border-radius: 10px;  
 }
 .course2 {
-    width: 27vw;
-    margin-left: 20px; 
+    width: 46.26%;
 }
 .total-course{
     display: flex;
+    justify-content: space-between;
 }
 .bag {
-    width: 70%;
+    width: 100%;
 }
 .course3 {
-    margin-top: 6px;
+    margin-top: 11px;
 }
 .img-1 {
-    width: 2.70vw;
-    margin-right: 5px;
+    width: 30px;
+    height: 28px;
+    margin-right: 8px;
 }
 .title-course {
     font-size: 15px;
-    margin-bottom: 18px;
+    font-weight: 700;
 }
 .title-courses {
-    margin-bottom: 20px;
-    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .user-details {
@@ -338,14 +369,15 @@ body {
 
 /* Courses */
 .courses {
-    width: 90%;
-    margin: 20px auto;
+    width: 100%;
+    padding: 42px 0 0 0 ;
 }
 
 .course-list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
+    grid-template-columns: repeat(4, 23.56%);
+    gap: 1.96%;
+    margin-top: 20px;
 }
 .course-mobile {
    display: none;
@@ -356,53 +388,57 @@ body {
     border-radius: 10px;
     overflow: hidden;
     background-color: white;
+    /* width: 180px;
+    height: 214px; */
 }
 .img-item{
     width: 100%;
 }
 .course-title {
-    font-weight: 600;
-    font-size: 1.14vw;
-    margin: 1vw 1vw;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 7px 0 0 7px;
 }
 .course-author {
-    font-weight: 600;
+    font-weight: 700;
     color: gray;
-    font-size: 0.90vw;
-    margin: 1vw 1vw;
+    font-size: 9px;
+    padding: 17px 0 0 7px;
 }
 .course-star {
-    margin: 1vw 1vw;
+    padding: 9px 0 0 7px;
+    display: flex;
+    align-items: center;
 }
 .course-prices {
-    font-size: 1.14vw;
-    margin: 1vw 1vw;
+    font-size: 10px;
+    padding: 18px 0 14px 7px;
 }
 .number-star {
-    font-size: 1.14vw;
-    margin-left: 0.60vw;
+    font-size: 10px;
+    margin-left: 4px;
     text-align: center;
 }
 .course-star-icon {
     color: #F9BF0A;
-    width: 12px;
+    width: 14px;
     height: 12px;
-    margin-left: -4px;
+    margin-left: -1px;
 }
 .course-price {
     color: gray;
-    font-size: 0.90vw;
-    margin: 1vw 1vw;
+    font-size: 10px;
+    padding: 10px 0 0 7px;
 }
 .progress {
     width: 100%;
-    height: 0.7vw;
     background-color: white;
     border-radius: 10px;
+    padding: 11px 0 0 0;
 }
 .progress-course {
     width: 100%;
-    height: 1vw;
+    height: 10px;
     background-color: green;
 }
 
@@ -419,19 +455,22 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
-    padding: 15px;
+    padding-bottom: 14px;
 }
 .skill-total {
     width: 100%;
     background-color: white;
     border-radius: 10px;
+    margin-top: 14px;
+    padding: 12px 37px 0 37px;
 }
 .skill-text {
-    margin-left: 35px;
-    font-size: 1.14vw;
+    margin-left: 33px;
+    font-size: 14px;
 }
 .img-couser {
-    width: 4vw;
+    width:25px;
+    height: 25px;
 }
 
 .skill-item {
@@ -446,11 +485,8 @@ body {
 }
 .wrap {
     display: flex;
-    width: 90%;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
+    width: 100%;
+    padding-top: 56px;
 }
 .header-mobile {
     display: none;
@@ -467,37 +503,39 @@ body {
     height: 86%;
     background-color: white;
     border-radius: 10px;
+    margin-top: 14px;
   }
   .calendar-header {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap: 10px;
+    gap: 3.79%;
     text-align: center;
-    font-weight: bold;
     color: #666;
-    font-size: 1.24vw;
+    font-size: 12px;
 }
-  .calendar-body {
+.calendar-body {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 10px;
-    margin-top: 3em;
-  }
+    grid-template-columns: repeat(7, 11.14%);
+    gap: 3.79%;
+    margin-top: 10px;
+}
+
   .day {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .date {
-    width: 3vw;
-    height: 2vw;
+    width: 100%;
+    max-width: 35px;
+    height: 18px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     color: #555;
-    font-size: 0.84vw;
+    font-size: 10px;
     background-color: #E9EAFA;
 }
   .low { background-color: #e0e7ff; }
@@ -506,12 +544,13 @@ body {
   .legend {
     display: flex;
     align-items: center;
-    margin-top: 3vw;
-    margin-left: 1vw;
+    margin-top: 26px;
+    /* margin-left: 20px; */
+    margin-bottom: 12px;
   }
   .text-hd {
-    margin-right: 10px;
-    font-size: 1.14vw;
+    margin-right: 21px;
+    font-size: 12px;
 }
   .legend-item {
     display: flex;
@@ -519,8 +558,8 @@ body {
     margin-right: 10px;
   }
   .legend-color {
-    width: 2vw;
-    height: 2vw;
+    width: 18px;
+    height: 18px;
     margin-right: 5px;
 }
 
@@ -533,20 +572,25 @@ body {
    margin: 0 auto; */
     
 }
-.total-footer {
-    padding: 20px 0;
+/* .total-footer {
+    padding: 44px  0 44px 38px;
     display: flex;
     justify-content: space-evenly;
     
+} */
+.total-footer {
+    padding: 44px 38px 44px 38px;
+    display: flex;
+    justify-content: space-between;
 }
 .total-care {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 .care {
-    font-weight: 600;
-    margin-bottom: 25px;
-    font-size: 1.15vw;
+    font-weight: 800;
+    margin-bottom: 15px;
+    font-size: 12px;
 }
 .logo-fb {
     width: 64px;
@@ -557,21 +601,16 @@ body {
     height: 40px;
     margin-bottom: 17px;
 }
-.cares {
-    padding-top: 15px;
-}
 .describe {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 12px;
     margin-bottom: 17px;
     line-height: 15px;
-}
-.describe {
     color: #000;
-    font-size: 1vw;
 }
 .instruct {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
+    font-size:10px ;
 }
 
 .contact-fb {
@@ -593,134 +632,4 @@ body {
     color: #FF0000;
     margin-right: 15px;
     font-size: 2.14vw;
-}
-.instruct {
-    font-size: 1vw;
-}
-.cares1{
-    margin-right: 6vw;
-    padding-top: 15px
-}
-@media (max-width: 972px) {
-    .skill-text {
-        font-size: 14px;
-    }
-    .text {
-        font-size: 1.14vw;
-    }
-    .title-courses {
-        font-size: 15px;
-    }
-    .side-bar {
-        width: 9%;
-    }
-    .calendar-header {
-        margin-top: 0;
-    }
-
-.calendar-body {
-    margin-top: 1em;
-}
-.date {
-    margin-bottom: 7px;
-    width: 3.50;
-}
-    .skill-list {
-        padding: 10px 33px 10px 33px;
-    }
-    .skill-total {
-    }
-    .wrap {
-        width: 86%;
-    }
-    .img-couser {
-        width: 2.58vw;
-    }
-    .courses {
-        width: 86%;
-    }
-    .img-user {
-        height: 4.14vw;
-    }
-    .progress-bar {
-        width: 90%;
-    }
-    .dashpoad {
-        width: 86%;
-    }
-    .banner {
-        width: 86%;
-    }
-    .btn-couse {
-        margin-top: 1.6vw;
-    }
-    .btn {
-        font-size: 1.05vw;
-        font-weight: 600;
-    }
-    .text2 {
-        margin-top: 1.1vw;
-        font-size: 10px;
-        color: white;
-    }
-    .text1 {
-        color: white;
-        font-weight: 500;
-        margin-top: 1.1vw;
-        font-size: 13px;
-    }
-    .number {
-        font-size: 1.34vw;
-    }
-    .date {
-        border-radius: 3px;
-    }
-    .search-container {
-        position: relative;
-        width: 31%;
-    }
-    .cares1 {
-        margin-right: 5vw;
-    }
-    .course-name {
-        margin-bottom: 2px;
-    }
-    .course3 {
-        margin-top: 2px;
-    }
-    .course-total {
-        width: 89%;
-        margin-bottom: 5px;
-    }
-    .course-total {
-        margin-bottom: 5px;
-    }
-    .total-bag {
-        margin-top: 1.56vw;
-    }
-    .banner {
-        border-radius: 10px;
-    }
-    .dashpoad {
-        border-radius: 10px;
-    }
-    .total-bag {
-        border-radius: 7px;
-    }
-    .date {
-        font-size: 1vw;
-    }
-    .legend {
-        margin-top: 8px;
-        margin-left: 0;
-    }
-    .calendar-container {
-        height: auto;
-    }
-    .progress {
-        width: 100%;
-        height: 1vw;
-        background-color: white;
-        border-radius: 10px;
-    }
 }

@@ -12,6 +12,7 @@ body {
     max-width: 1496px;
     margin: 0 auto;
     width: 100%;
+    min-width: 384px;
 }
 
 /* Header */
@@ -24,12 +25,16 @@ body {
     align-items: center;
     padding: 0 8px;
 }
+.img-bar {
+    display: none;
+}
 .header_search {
     max-width: 441px;
     min-width: 380px;
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
 }
 
 .logo {
@@ -390,6 +395,7 @@ body {
     background-color: white;
     /* width: 180px;
     height: 214px; */
+    position: relative;
 }
 .img-item{
     width: 100%;
@@ -403,7 +409,7 @@ body {
     font-weight: 700;
     color: gray;
     font-size: 9px;
-    padding: 17px 0 0 7px;
+    padding: 9px 0 0 7px;
 }
 .course-star {
     padding: 9px 0 0 7px;
@@ -434,12 +440,14 @@ body {
     width: 100%;
     background-color: white;
     border-radius: 10px;
-    padding: 11px 0 0 0;
+    position: absolute;
+    bottom: -2px;
 }
 .progress-course {
     width: 100%;
     height: 10px;
     background-color: green;
+
 }
 
 /* Skills */
@@ -515,8 +523,8 @@ body {
 }
 .calendar-body {
     display: grid;
-    grid-template-columns: repeat(7, 11.14%);
-    gap: 3.79%;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 3.5%;
     margin-top: 10px;
 }
 
@@ -578,14 +586,21 @@ body {
     justify-content: space-evenly;
     
 } */
+ .logo-ft {
+    width: 35%;
+    min-width: 207px;
+ }
+
 .total-footer {
     padding: 44px 38px 44px 38px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 4.5%;
 }
 .total-care {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    width: 100%;
 }
 .care {
     font-weight: 800;

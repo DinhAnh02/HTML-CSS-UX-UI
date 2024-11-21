@@ -7,10 +7,10 @@
         margin: 0;
     }
     .instruct {
-        font-size: 1.50vw;
+        font-size: 12px;
     }
     .care {
-        font-size: 1.90vw;
+        font-size: 14px;
     }
     .contact-fb {
         font-size: 4vw;
@@ -39,6 +39,7 @@
     }
     .total-care {
         grid-template-columns: repeat(2, 1fr);
+        gap: 3.5%;
     }
     .text-hd {
         font-size: 12px;
@@ -49,20 +50,27 @@
 
     }
     .legend {
-        margin-left: 15px;
-        margin-top: 20px;
+        margin-top: 22px;
+        margin-left: 7px;
     }
     .calendar-header {
         font-size: 12px;
         color: #808080;
     }
-   
-    
+    .calendar-container{
+        margin-top: 16px;
+    }
+    .skill-total {
+        margin-top: 16px;
+    }
+    .total-footer {
+        gap: 4.5%;
+    }
     .date {
-        width: 5vw;
-        height: 2.5vw;
+        width: 100%;
         border-radius: 5px;
-        font-size: 1.24vw;
+        font-size: 10px;
+        margin-bottom: 7px;
     }
     .calendar-container {
         padding: 30px 60px;
@@ -71,7 +79,7 @@
         /* width: 50%; */
     }
     .skill-text {
-        font-size: 1.80vw;
+        font-size: 14px;
     }
 .course-price {
     font-size: 10px;
@@ -79,6 +87,9 @@
     /* .course-star-icon {
         font-size: 1.34vw;
     } */
+    .side-bar {
+        min-width: 80px;
+    }
     .course-author {
         font-size: 9px;
     }
@@ -100,7 +111,8 @@
         height: 44px;
     }
     .img-couser {
-        width: 3.3vw;
+        width: 25px;
+        height: 25px;
     }
     .header_search {
         max-width: 421px;
@@ -111,14 +123,12 @@
         margin-right: 10px;
     }
     .number {
-        font-size: 1.74vw;
+        font-size: 12px;
     }
     .course-text {
         font-size: 10px;
     }
-    .dashpoad-total {
-        width: 43vw;
-    }
+   
     .course2 {
         width: 46.26%;
     }
@@ -126,7 +136,8 @@
         width: 46.2%;
     }
     .dashpoad-total {
-        height: 15vw;
+        height: 115px;
+        width: 224px;
     }
     .dashpoad {
         border-radius: 10px;
@@ -142,8 +153,9 @@
         border-radius: 10px;
         max-width: 598px;
         width: 100%;
-        height: 112px;
+        height: auto;
     }
+
     .banner1 {
         padding: 16px 45px 45px;
     }
@@ -162,7 +174,14 @@
         margin-top: 8px;
     }
     .total-bag {
-        margin-top: 2vw;
+        width: 61px;
+        height: 44px;
+        border-radius: 5px;
+        padding-top: 5px;
+    }
+    .total-bag img {
+        width: 15px;
+        height: 15px;
     }
     .btn {
         font-size: 10px;
@@ -170,19 +189,18 @@
         margin-top: 13px;
         width: 96px;
         height: 28px;
+        margin-bottom: 15px;
     }
     .wrap {
         display: block;
+        padding-top: 42px;
     }
     .calendar {
         width: 100%;
+        padding-top: 42px;
     }
     .skills {
         width: 100%;
-    }
-    .course-name {
-        margin-bottom: 0.7vw;
-        margin-top: 0.7vw;
     }
     .course-total {
         margin-bottom: 0;
@@ -222,12 +240,37 @@
         display: none;
     }
     .skill-star {
-        margin-left: 11vw;
+        margin-left: 54px;
     }
     .skill-list {
         justify-content: flex-start;
     }
     .skill-js {
         width: 90px;
+    }
+}
+@media(max-width:645px) {
+    .total-bag p {
+        font-size: 10px;
+    }
+    .dashpoad-item {
+        display: block;
+     }
+     .dashpoad {
+        height: auto;
+     }
+     .dashpoad-total {
+        width: 100%;
+        margin-right:0;
+     }
+     .bag {
+        margin-top: 13px;
+     }
+     .course3 {
+        margin-top: 13px;
+     }
+     .total-img {
+        margin-top: 6px;
+        padding-bottom: 13px;
     }
 }

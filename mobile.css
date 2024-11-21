@@ -1,4 +1,4 @@
-@media (max-width: 385px) {
+@media (max-width: 461px) {
     .header-mobile {
         width: 100%;
         height: 50px;
@@ -8,20 +8,22 @@
         align-items: center;
     }
     .total-bag {
-        width: 16vw;
-        height: 10vw;
+        width: 60px;
+        height: 37px;
         background-color: #E9EAFA;
-        margin-top: 0px;
+        margin:0;
         
     }
     .title-course {
         margin-top: 0px;
         font-size: 15px;
-        margin-bottom: 9px;
+        margin-bottom: 8px;
     }
     .title-courses {
         font-size: 15px;
-        margin-bottom: 9px;
+    }
+    .skill-total {
+        margin-top: 9px;
     }
     .text-title {
         display: flex;
@@ -30,7 +32,7 @@
         
     }
     .see-more {
-        margin-bottom: 20px;
+        margin-bottom: 14px;
         font-size: 10px;
         color: #1A58B4;
         display: block;
@@ -41,42 +43,37 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 0.6vw;
-        padding-top: 4px;
     }
     .text {
-        font-size: 3vw;
-        margin-bottom: 0;
+        font-size: 9px;
     }
     .course-item{
         border-radius: 5px;
     }
     .instruct {
-        font-size: 3vw;
+        font-size: 12px;
     }
     .care {
-        font-size: 3.9vw;
+        font-size: 14px;
     }
     .contact-fb {
-        font-size: 6.14vw;
+        font-size: 30px;
     }
     .contact-tw {
-        font-size: 6.14vw;
+        font-size: 30px;
     }
     .contact-yt {
-        font-size: 6.14vw;
+        font-size: 30px;
     }
     .contact-gh {
-        font-size: 6.14vw;
+        font-size: 30px;
     }
     .contact {
         margin: 23px 0 25px 0;
     }
     .describe {
-        font-size: 3.5vw;
+        font-size: 12px;
         line-height: 18px;
-    }
-    .total-care {
-        margin-left: 20px;
     }
     .total-footer{
         display: block;
@@ -85,29 +82,34 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .legend-color {
-        width: 4vw;
-        height: 4vw;
+        width: 18px;
+        height: 18px;
     }
     .calendar-container {
-        padding: 15px;
+        padding: 15px 12px;
+        margin-top: 9px;
     }
     .date {
-        width: 9vw;
-        height: 5vw;
+        width: 34px;
+        height: 20px;
         border-radius: 3px;
-        font-size: 2.44vw;
+        font-size: 10px;
     }
     .calendar-header {
         font-size: 10px;
     }
+    .calendar {
+        padding-top: 21px;
+    }
     .text-hd {
-        font-size: 3.14vw;
+        font-size: 12px;
     }
     .skill-text {
-        font-size: 2.8vw;
+        font-size: 14px;
     }
     .img-couser {
-        width: 7vw;
+        width: 25px;
+        height: 25px;
     }
     .logo-fb {
         width: 50px;
@@ -121,31 +123,15 @@
     }
     .search-bars {
         font-size: 8px;
-        height: 22px;
     }
     .logo {
         margin-left: 15px;
     }
-    .logo-ft {
-        margin-left: 20px;
-    }
-    /* .course-star-icon {
-        font-size: 2.14vw;
-    } */
-    .course-price {
-        font-size: 1.9vw;
-        margin: 2vw 2vw;
-    }
     .course-author {
-        font-size: 2.1vw;
-        margin: 2vw 2vw;
+        font-size: 9px;
     }
     .course-title {
-        font-size: 2.74vw;
-        margin: 1vw 2vw;
-    }
-    .course-star {
-        margin: 1vw 2vw;
+        font-size: 10px;
     }
     .course2 {
         margin: 0;
@@ -154,20 +140,22 @@
         margin-bottom: 10px;
     }
     .img-1{
-        width: 5.7vw;
-        margin: 6px 0px 0 0;
+        width: 21px;
+        height: 21px;
+        margin-right: 4px;
+    }
+    .courses {
+        padding-top: 21px;
     }
     .number{
         font-size: 10px;
-    }
-    .number-star {
-        font-size: 2.54vw;
     }
     .course-text {
         font-size: 7px;
     }
     .img-user{
-        margin-top: 9px;
+      width: 25px;
+      height: 25px;
     }
     .name-text{
         font-size: 2vw;
@@ -175,55 +163,70 @@
     .course {
         width: 20vw;
     }
+    .bag {
+        margin-top: 0;
+    }
     .dashpoad-total {
-        width: 40vw;
-        height: 18.4vw;
+        width: 100%;
+        height: 70px;
+        max-width: 113px;
+        min-width: 113px;
+        margin-right: 17px;
     }
     .title-text{
-        font-size: 2.5vw;
-        padding: 2vw 0 4vw 2vw;
+        font-size: 10px;
     }
     .dashpoad {
-        height: 35vw;
         border-radius: 10px;
-        margin-bottom: 21px;
-        width: 86.3vw;
+        max-width: 400px;
+        width: 100%;
+        min-width: 330px;
+        padding: 10px 19px 0;
+    }
+    .dashpoad-item {
+        display: flex;
+        margin-top: 18px;
     }
     .btn-couse {
         width: 100%;
     }
     .btn {
         font-size: 7px;
-        padding: 6%;
+        width: 76px;
+        height: 24px;
     }
     .text2 {
         font-size: 7px;
         margin-top: 8px;
     }
-    .total3 {
-        margin-left: 16px;
-    }
     .text1 {
         font-size: 10px;
         margin-top: 12px;
     }
+    .total3 p:nth-child(2) {
+        font-size: 7px;
+    }
     .banner {
-        height: 25.3vw;
         border-radius: 10px;
-        width: 86.3%;
+        max-width: 400px;
+        width: 100%;
     }
     .img-sales {
         height: 100%;
         width: 46.5vw;
     }
     .banner1 {
-        width: 100%;
+        padding: 18px 27px;
     }
     .side-bar {
         display: none;
     }
     .course-list {
        display: none;
+    }
+    .total3 p:first-child {
+        font-size: 10px;
+        margin-top: 12px;
     }
     .course-mobile {
         display: grid;
@@ -253,9 +256,11 @@
     .header-user {
         display: none;
     }
+    .course-price {
+        margin-bottom: 15px;
+    }
     .course-prices {
-        font-size: 2vw;
-        margin: 2vw 2vw;
+        font-size: 9px;
     }
     .course-name {
         margin-bottom: 0;
@@ -268,4 +273,28 @@
     .skill-star {
         margin-left: 0;
     }
+    .user-options {
+        display: none;
+    }
+    .img-bar {
+        display: block;
+        width: 19px;
+        height: 22px;
+    }
+    .search-icon {
+        right: 12px;
+    }
+    .total-bag:first-child {
+        background-color: #E9EAFA;
+    }
+    .search-container {
+        display: flex;
+    }
+    .header_search {
+        min-width: 350px;
+    }
+    .wrap {
+        padding-top: 21px;
+    }
+    
 }

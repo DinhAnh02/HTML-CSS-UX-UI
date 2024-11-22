@@ -114,8 +114,13 @@
         width: 25px;
         height: 25px;
     }
+    .logo-fb{
+        margin-right: 10px;
+    }
     .header_search {
         max-width: 421px;
+        min-width: 300px;
+        margin-right: 10px;
     }
     .img-1 {
         width: 30px;
@@ -157,7 +162,7 @@
     }
 
     .banner1 {
-        padding: 16px 45px 45px;
+        padding: 16px 5.86% 45px;
     }
     .text1 {
         font-size: 13px;
@@ -222,6 +227,9 @@
     }
     .course-prices {
         font-size: 10px;
+    }
+    .course-item {
+    padding-bottom: 10px;
     }
     .number-star {
         font-size: 12px;

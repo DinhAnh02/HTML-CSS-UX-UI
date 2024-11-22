@@ -12,7 +12,7 @@ body {
     max-width: 1496px;
     margin: 0 auto;
     width: 100%;
-    min-width: 384px;
+    min-width: 300px;
 }
 
 /* Header */
@@ -27,6 +27,9 @@ body {
 }
 .img-bar {
     display: none;
+}
+.cares {
+    margin-left: 10px;
 }
 .header_search {
     max-width: 441px;

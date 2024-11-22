@@ -85,6 +85,9 @@
         width: 18px;
         height: 18px;
     }
+    .legend {
+        margin-bottom: 0;
+    }
     .calendar-container {
         padding: 15px 12px;
         margin-top: 9px;
@@ -93,7 +96,7 @@
         width: 100%;
         max-width: 34px;
         height: 20px;
-        border-radius: 3px;
+        border-radius: 5px;
         font-size: 10px;
     }
     .calendar-header {

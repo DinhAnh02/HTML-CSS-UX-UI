@@ -1,5 +1,5 @@
+ /* Tablet Styles */ 
 @media (max-width: 768px) {
-    /* Tablet Styles */ 
     .user-options {
         max-width: 120px;
     }
@@ -52,6 +52,7 @@
     .legend {
         margin-top: 22px;
         margin-left: 7px;
+        margin-bottom: 0;
     }
     .calendar-header {
         font-size: 12px;
@@ -75,18 +76,12 @@
     .calendar-container {
         padding: 30px 60px;
     }
-    .skill-list {
-        /* width: 50%; */
-    }
     .skill-text {
         font-size: 14px;
     }
 .course-price {
     font-size: 10px;
 }
-    /* .course-star-icon {
-        font-size: 1.34vw;
-    } */
     .side-bar {
         min-width: 80px;
     }
@@ -133,7 +128,6 @@
     .course-text {
         font-size: 10px;
     }
-   
     .course2 {
         width: 46.26%;
     }

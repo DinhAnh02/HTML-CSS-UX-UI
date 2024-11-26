@@ -9,16 +9,10 @@ body {
     background-color: #f4f4f8;
 }
 .main {
-    /* max-width: 1496px;
-    margin: 0 auto;
-    width: 100%;
-    min-width: 300px; */
     max-width: 1496px;
     margin: 0 auto;
-    /* width: 100%; */
-    /* min-width: 300px; */
-    width: 1446px;
-    aspect-ratio: 10 / 1;
+    width: 100%;
+    min-width: 300px;
 }
 
 /* Header */

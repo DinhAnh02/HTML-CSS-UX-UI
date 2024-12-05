@@ -1,20 +1,22 @@
+ /* Tablet Styles */ 
 @media (max-width: 768px) {
-    /* Tablet Styles */ 
+    .user-options {
+        max-width: 120px;
+    }
     .cares {
         margin: 0;
     }
     .instruct {
-        font-size: 1.50vw;
+        font-size: 12px;
     }
     .care {
-        font-size: 1.90vw;
+        font-size: 14px;
     }
     .contact-fb {
         font-size: 4vw;
     }
     .search-container {
         position: relative;
-        width: 40%;
     }
     .contact-tw {
         font-size: 4vw;
@@ -26,7 +28,7 @@
         font-size: 4vw;
     }
     .describe {
-        font-size: 1.50vw;
+        font-size: 12px;
     }
     .logo {
         margin-left: 6px;
@@ -37,6 +39,7 @@
     }
     .total-care {
         grid-template-columns: repeat(2, 1fr);
+        gap: 3.5%;
     }
     .text-hd {
         font-size: 12px;
@@ -47,90 +50,99 @@
 
     }
     .legend {
-        margin-left: 15px;
-        margin-top: 20px;
+        margin-top: 22px;
+        margin-left: 7px;
+        margin-bottom: 0;
     }
     .calendar-header {
         font-size: 12px;
         color: #808080;
     }
-   
-    
+    .calendar-container{
+        margin-top: 16px;
+    }
+    .skill-total {
+        margin-top: 16px;
+    }
+    .total-footer {
+        gap: 4.5%;
+    }
     .date {
-        width: 5vw;
-        height: 2.5vw;
+        width: 100%;
         border-radius: 5px;
-        font-size: 1.24vw;
+        font-size: 10px;
+        margin-bottom: 7px;
     }
     .calendar-container {
-        padding: 40px;
-    }
-    .skill-list {
-        /* width: 50%; */
+        padding: 30px 60px;
     }
     .skill-text {
-        font-size: 1.80vw;
+        font-size: 14px;
     }
 .course-price {
-    font-size: 1.14vw;
-    margin: 2vw 2vw;
+    font-size: 10px;
 }
-    /* .course-star-icon {
-        font-size: 1.34vw;
-    } */
-    .course-author {
-        font-size: 1.10vw;
-        margin: 1vw 2vw;
+    .side-bar {
+        min-width: 80px;
     }
-    .course-star {
-        margin: 1vw 2vw;
+    .course-author {
+        font-size: 9px;
     }
     .course-title {
-        font-size: 1.54vw;
-        margin: 1vw 2vw;
+        font-size: 10px;
     }
     .name-text {
-        font-size: 1.70vw;
-        font-weight: 600;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .total3 p:first-child {
+        margin-top: 17px;
+    }
+    .total3 p:nth-child(2) {
+        margin-top: 8px;
     }
     .img-user {
-        height: 6.14vw;
-    }
-    .title-courses {
-        margin-top: 38px;
+        width: 46px;
+        height: 44px;
     }
     .img-couser {
-        width: 3.3vw;
+        width: 25px;
+        height: 25px;
     }
-    .title-text {
-        padding: 1vw 0 2vw 2vw;
+    .logo-fb{
+        margin-right: 10px;
+    }
+    .header_search {
+        max-width: 421px;
+        min-width: 300px;
+        margin-right: 10px;
     }
     .img-1 {
-        width: 3.7vw;
-        margin-right: 12px;
+        width: 30px;
+        height: 28px;
+        margin-right: 10px;
     }
     .number {
-        font-size: 1.74vw;
+        font-size: 12px;
     }
     .course-text {
-        font-size: 1.44vw;
-    }
-    .dashpoad-total {
-        width: 43vw;
+        font-size: 10px;
     }
     .course2 {
-        width: 20vw;
+        width: 46.26%;
     }
     .course {
-        width: 20vw;
+        width: 46.2%;
     }
     .dashpoad-total {
-        height: 15vw;
+        height: 115px;
+        width: 224px;
     }
     .dashpoad {
         border-radius: 10px;
-        height: 25vw;
-        width: 85.3%;
+        max-width: 598px;
+        width: 100%;
+        height: 192px;
     }
     .text {
         font-size: 1.14vw;
@@ -138,8 +150,13 @@
     }
     .banner {
         border-radius: 10px;
-        width: 85.3%;
-        margin: 16px auto;
+        max-width: 598px;
+        width: 100%;
+        height: auto;
+    }
+
+    .banner1 {
+        padding: 16px 5.86% 45px;
     }
     .text1 {
         font-size: 13px;
@@ -155,39 +172,43 @@
         width: 100%;
         margin-top: 8px;
     }
-    .banner {
-        height: 14.6vw;
-    }
     .total-bag {
-        margin-top: 2vw;
+        width: 61px;
+        height: 44px;
+        border-radius: 5px;
+        padding-top: 5px;
+    }
+    .total-bag img {
+        width: 15px;
+        height: 15px;
     }
     .btn {
-        padding: 5%;
-        font-size: 1.14vw;
-        font-weight: 600;
-        margin-top: 8px;
+        font-size: 10px;
+        font-weight: 700;
+        margin-top: 13px;
+        width: 96px;
+        height: 28px;
+        margin-bottom: 15px;
     }
     .wrap {
         display: block;
+        padding-top: 42px;
     }
     .calendar {
         width: 100%;
-    }
-    .title-course {
-        margin-top: 30px;
+        padding-top: 42px;
     }
     .skills {
         width: 100%;
-    }
-    .course-name {
-        margin-bottom: 0.7vw;
-        margin-top: 0.7vw;
     }
     .course-total {
         margin-bottom: 0;
     }
     .progress-bar {
         display: none;
+    }
+    .progress {
+        padding: 4px 0 0 0;
     }
     .certification-text {
         display: none;
@@ -196,32 +217,62 @@
         display: none;
     }
     .course-list {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 32.04%);
     }
     .course-prices {
-        font-size: 1.4vw;
-        margin: 2vw 2vw;
+        font-size: 10px;
+    }
+    .course-item {
+    padding-bottom: 10px;
     }
     .number-star {
-        font-size: 1.54vw;
+        font-size: 12px;
     }
     .img-sales {
-        height: 14.6vw;
-        width: 31.6vw;
+        width: 100%;
+        height: 112px;
     }
     .header-mobile {
         display: none;
+    }
+    .header {
+        padding: 0 14px;
     }
     .see-more {
         display: none;
     }
     .skill-star {
-        margin-left: 11vw;
+        margin-left: 54px;
     }
     .skill-list {
         justify-content: flex-start;
     }
     .skill-js {
         width: 90px;
+    }
+}
+@media(max-width:645px) {
+    .total-bag p {
+        font-size: 10px;
+    }
+    .dashpoad-item {
+        display: block;
+     }
+     .dashpoad {
+        height: auto;
+     }
+     .dashpoad-total {
+        width: 100%;
+        margin-right:0;
+     }
+     .bag {
+        margin-top: 13px;
+     }
+     .course3 {
+        margin-top: 13px;
+     }
+     .total-img {
+        margin-top: 6px;
+        padding-bottom: 13px;
     }
 }
